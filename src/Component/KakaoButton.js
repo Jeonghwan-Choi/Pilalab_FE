@@ -33,6 +33,8 @@ class KakaoButton extends React.Component {
         onFail={this.responseFail} // 카카오 로그인 실패시 수행할 함수를 입력합니다.
         className="kakao-login-button" // 카카오 로그인 버튼에 적용할 클래스 이름을 입력합니다.
         buttonText="카카오 계정으로 로그인" // 카카오 로그인 버튼에 표시할 텍스트를 입력합니다.
+        style={{ width: '100%' }} // 버튼에 적용할 스타일을 입력합니다.
+
       />
     );
   }
