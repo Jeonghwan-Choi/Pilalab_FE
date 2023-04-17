@@ -9,7 +9,7 @@ import Join from '../src/Component/Join';
 import AiProductList from '../src/Component/AiProductList';
 import NewProductList from '../src/Component/NewProductList';
 import KakaoButton from '../src/Component/KakaoButton';
-
+import Main from '../src/Component/Main'
 class App extends Component {
  
 
@@ -17,10 +17,8 @@ class App extends Component {
     return (
       <div>
 
-         <Navbar />
-        <Join />
-        {/* <AiProductList /> */}
-        {/* <NewProductList /> */}
+        <Navbar />
+        <Main/>
       </div>
     );
   }
