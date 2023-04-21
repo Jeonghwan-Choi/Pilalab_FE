@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../Css/AiProductList.css';
-import Logo from '../logo.svg';
 import ProductItem from  './ProductItem';
 
 class AiProductList extends Component {

@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'mobx-react';
 
 // import ProductStore from './Store/ProductStore';
-import Todo from './Store/Todo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
