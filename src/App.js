@@ -16,7 +16,10 @@ class App extends Component {
   render() {
     return (
       <div>
-
+        <BrowserRouter>
+          <Route exact path="/" component={AiProductList} />
+          <Route path="/new" component={NewProductList} />
+        </BrowserRouter>
         <Navbar />
         <Main/>
       </div>

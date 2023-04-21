@@ -10,9 +10,13 @@ class Main extends Component {
 
 
   render() {
+    const { ProductStore } = this.props;
+
     return (
       <div>
-        <AiProductList />
+        <AiProductList 
+          ProductStore={ProductStore}
+        />
         <NewProductList />
       </div>
     );
