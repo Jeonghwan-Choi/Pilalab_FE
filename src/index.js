@@ -10,7 +10,7 @@ import Todo from './Store/Todo';
 
 
 ReactDOM.render(
-  <Provider Todo={Todo}>
+  <Provider>
     <App />
   </Provider>,
   document.getElementById('root')
