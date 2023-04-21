@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { inject, observer } from 'mobx-react';
 import '../Css/AiProductList.css';
 import Logo from '../logo.svg';
 import ProductItem from  './ProductItem';
@@ -7,10 +6,6 @@ import ProductItem from  './ProductItem';
 class AiProductList extends Component {
   
   render() {
-
-    const { ProductStore } = this.props;
-    console.log('ProductStore', ProductStore);
-
     return (
         <div className='aiProductList'>
             <div className='title'>AI 추천 리스트</div>
