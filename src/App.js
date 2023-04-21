@@ -16,10 +16,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter>
+        {/* <BrowserRouter>
           <Route exact path="/" component={AiProductList} />
           <Route path="/new" component={NewProductList} />
-        </BrowserRouter>
+        </BrowserRouter> */}
         <Navbar />
         <Main/>
       </div>

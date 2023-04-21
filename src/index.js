@@ -9,13 +9,12 @@ import { Provider } from 'mobx-react';
 import Todo from './Store/Todo';
 
 
-ReactDOM.render(
-  <Provider>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
     <App />
-  </Provider>,
-  document.getElementById('root')
+  </React.StrictMode>
 );
-
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 //   <React.StrictMode>
