@@ -8,7 +8,7 @@ div {
   align-items: center;
   /* background-color: #333; */
   /* height: 70px; */
-  padding: 0 20%;
+  padding: 0 15%;
 }
 
 .itemList{
@@ -18,7 +18,7 @@ div {
 }
 
 .title{
-  font-size: 25px;
+  font-size: 18px;
   margin-top: 20px;
   font-weight: 500;
   color: rgb(116, 116, 116);

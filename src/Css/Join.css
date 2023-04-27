@@ -6,7 +6,6 @@ div {
 .Join{
     height: 70vh;
     padding: 4% 30%;
-
 }
 
 .JoinDiv{
@@ -17,10 +16,12 @@ div {
     height: 100%;
     border-radius: 15px;
 }
+
 .login_title_div {
     width: 100%;
     text-align: center;
 }
+
 .login_title{
     font-size: 25px;
     font-weight: 500;

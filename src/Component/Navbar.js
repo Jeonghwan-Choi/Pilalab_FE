@@ -19,7 +19,7 @@ class Navbar extends Component {
         </div>
         <div>     
             <li>
-                <a href="#" className="navbar-link">
+                <a href="/login" className="navbar-link">
                 로그인
                 </a>
             </li>
