@@ -8,7 +8,7 @@ class NewProductList extends Component {
   render() {
     return (
         <div className='newProductList'>
-            <div className='title'>신규공고</div>
+            <div className='new_title'>신규공고</div>
 
             <br/>
             <div className='itemList'>

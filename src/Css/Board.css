@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+div {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.board_main {
+    
+    margin-top: 3%;
+    padding: 0 20%;
+    margin-bottom: 3%;
+  }
+  
+  .board_main_div{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .board_img_div {
+    margin-right: 10px;
+  }
+  
+  .board_img {
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  .board_center_div {
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(253, 221, 226);
+    color: black;
+    box-shadow: 1px 0px 1px 1px rgb(224, 224, 224);
+    height: 60px;
+    width: 40%;
+  }
+
+  .board_center_div p{
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .map{
+    /* border: 1px solid black; */
+    height: 370px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .board_info .board_title{
+    color: rgb(23, 23, 23);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .board_info .board_center{
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .board_user_count_div{
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 10px;
+    border: 1px solid rgb(218, 218, 218);
+    /* box-shadow: 1px 0px 1px 1px rgb(224, 224, 224); */
+    height: 100%;
+    text-align: left;
+    border-radius: 10px;
+  }
+
+  .board_info_div{
+    display: inline-block;
+  }
+  .board_info_div p{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .board_location{
+    font-size: 15px;
+    color: gray;
+  }
+  

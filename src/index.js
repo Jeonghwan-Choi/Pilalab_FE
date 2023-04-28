@@ -7,6 +7,7 @@ import Navbar from '../src/Component/Navbar';
 
 import Main from './Page/Main'
 import Login from './Page/Login'
+import Board from './Page/Board'
 
 // import { Provider } from 'mobx-react';
 
@@ -22,6 +23,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Main/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/board" element={<Board/>} />
       </Routes>
     </Router>
 </React.StrictMode>
