@@ -7,7 +7,7 @@ class AiProductList extends Component {
   render() {
     return (
         <div className='aiProductList'>
-            <div className='title'>AI 추천 리스트</div>
+            <div className='ai_title'>AI 추천 리스트</div>
 
             <br/>
             <div className='itemList'>

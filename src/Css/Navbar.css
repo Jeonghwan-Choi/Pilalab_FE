@@ -29,7 +29,7 @@ div {
   .navbar-link  {
     display: block;
     color: rgb(37, 37, 37);
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
     text-align: center;
     /* padding: 6px 16px; */
@@ -49,5 +49,10 @@ div {
 
   .navbar-logo{
     /* margin-right: 30px; */
+  }
+
+
+  .navbar-logo-image{
+    width: 200px;
   }
   
